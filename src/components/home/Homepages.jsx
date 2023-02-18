@@ -1,8 +1,15 @@
-import React from 'react'
+import React from "react"
+// import Discover from "./discover/Discover"
+import Hero from "../home/hero/Hero"
+// import Homes from "./mainContent/homes/Home"
 
-export function Homepages (){
+const Homepages = () => {
   return (
-    <div>Homepagessssssssssssssssss</div>
+    <>
+      <Hero />
+      {/* <Homes /> */}
+      {/* <Discover /> */}
+    </>
   )
 }
 

@@ -5,12 +5,11 @@ const Head = () => {
   return ( <> <section className='head'>
   <div className="container flexSB paddingTB">
         <div className='logo'>
-          <img src={image} />
+          <img src={image1} />
               <h1>hellooooooooo</h1>
           </div>
           <div className='ad'>
-              <img src={image1} alt='' />
-              <img src="../images/logo.jpg" alt="" />
+              <img src={image} alt='' />
               <h1>hellooooooooo</h1>
           </div>
           

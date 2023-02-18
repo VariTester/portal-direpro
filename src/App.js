@@ -6,9 +6,9 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import {Homepages} from './components/home/Homepages'
+import Homepages from './components/home/Homepages'
 
-function App (){
+const App = () => {
   return (
     <>
       <Router>
