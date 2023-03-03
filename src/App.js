@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Homepages from './components/home/Homepages'
+import Homepages from '../src/components/home/Homepages'
 
 const App = () => {
   return (

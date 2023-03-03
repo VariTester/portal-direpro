@@ -19,13 +19,13 @@ const Header = () => {
         <nav>
           {/* para hacer horizontal la barra de categorias */}
           <ul className={navbar ? 'navbar':'flex'} onClick={()=>setnavbar(false)}>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/culture'>Culture</Link></li>
-            <li><Link to='/politic'>politics</Link></li>
-            <li><Link to='/memes'>memes</Link></li>
-            <li><Link to='/sports'>sports</Link></li>
-            <li><Link to='/boxed'>boxed</Link></li>
-            <li><Link to='/reviwes'>reviews</Link></li>
+            <li><Link to='/'>Inicio</Link></li>
+            <li><Link to='/noticias'>Noticias</Link></li>
+            <li><Link to='/publicacionnes'>Publicaciones</Link></li>
+            <li><Link to='/productos'>Productos</Link></li>
+            <li><Link to='/eventos'>Eventos</Link></li>
+            <li><Link to='/correos_institucionales'>Correos Institucionales</Link></li>
+            <li><Link to='/nosotros'>Nosotros</Link></li>
           </ul>
           <button className='barIco' onClick={()=> setnavbar(!navbar)}>
             {navbar ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i>}

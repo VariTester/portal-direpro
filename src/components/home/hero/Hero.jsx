@@ -2,19 +2,16 @@ import React, {useState} from 'react'
 import  {hero} from '../../../Data'
 import Card from './Card';
 const Hero = () => {
-    const [items, setItems] = useState(hero);
+    const [items, setitems] = useState(hero);
+    console.log(items)
   return (
     <>
        <section className='hero'>
         <div className='container'>
           {items.map((item) => {
-            return (
-              <>
-                <Card key={item.id} item={item} />
-              </>
-            )
+            return <Card key={item.id} item={item} />
           })}
-        </div>
+        </div>   
       </section>
     </>
   )

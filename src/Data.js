@@ -1,12 +1,13 @@
 export const hero = [
     {
       id: 1,
-      cover: "./components/common/images/hero/hero1.jpg",
-      catgeory: "featured",
-      title: "Google To Boost Android Security In Few Days",
-      authorName: "Salman",
+      cover: "./assets/images/hero/direpro1.jpg",
+      catgeory: "Noticias",
+      title: "Empresarios psicultores sostuvieiron reunión con funcionarios de DIREPRO",
+      authorName: "La Región",
       authorImg: "../images/author.jpg",
-      time: "5 Jun - 2022",
+      time: "21 Julio - 2022",
+      urlNoticias1: "Ir a la noticia...",
       desc: [
         {
           para1: "You audience. Least, the recently his repeat the this avarice for the have and was on would before the concise bedding were hall politely name be regretting have of even five of it the his are there again. Word seven designer far lady problem will have work with you to fully understand your business to achieve.",
@@ -36,12 +37,13 @@ export const hero = [
     },
     {
       id: 2,
-      cover: "./components/common/images/hero/hero2.jpg",
-      catgeory: "sport",
-      title: "More than billion football fans attend Brazil world cup",
-      authorName: "alex",
+      cover: "./assets/images/hero/direpro2.jpg",
+      catgeory: "Noticias",
+      title: "Gorel y Direpro realizaron mejoras en la planta piloto de la Facultad de Industrias Alimentarias de la UNAP",
+      authorName: "La Región",
       authorImg: "../images/author.jpg",
-      time: "12 Aug - 2022",
+      time: "21 Julio - 2022",
+      urlNoticias2: "Ir a la noticia...",
       desc: [
         {
           para1: "You audience. Least, the recently his repeat the this avarice for the have and was on would before the concise bedding were hall politely name be regretting have of even five of it the his are there again. Word seven designer far lady problem will have work with you to fully understand your business to achieve.",
@@ -71,12 +73,13 @@ export const hero = [
     },
     {
       id: 3,
-      cover: "./components/common/images/hero/hero3.jpg",
-      catgeory: "fashion",
-      title: "No escaping new high tech speed cameras",
-      authorName: "rina",
+      cover: "./assets/images/hero/direpro3.jpg",
+      catgeory: "Noticias",
+      title: "Direpro Loreto suscribió convenio con la Municipalidad de Inahuaya en Contamana",
+      authorName: "La región",
       authorImg: "../images/author.jpg",
-      time: "22 Mar - 2022",
+      time: "09 Abril - 2021",
+      urlNoticias3: "Ir a la noticia...",
       desc: [
         {
           para1: "You audience. Least, the recently his repeat the this avarice for the have and was on would before the concise bedding were hall politely name be regretting have of even five of it the his are there again. Word seven designer far lady problem will have work with you to fully understand your business to achieve.",
@@ -106,7 +109,7 @@ export const hero = [
     },
     {
       id: 4,
-      cover: "./components/common/images/hero/hero4.jpg",
+      cover: "./assets/images/hero/hero4.jpg",
       catgeory: "technology",
       title: "Emma Watson stands up for Turkish women",
       authorName: "sunil",
