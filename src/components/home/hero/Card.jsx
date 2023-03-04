@@ -25,7 +25,7 @@ const Card = ({ item: { id, cover, catgeory, title, authorName, time, urlNoticia
             <p className='titleBg'>{urlNoticias3}</p>
           </Link>
           <div className='author flex'>
-            <span>by {authorName}</span>
+            <span>Por {authorName}</span>
             <span>{time}</span>
           </div>
           

@@ -1,13 +1,19 @@
 .head{
         cursor: pointer;
+        height: 13vh;
+        /* background-color: aqua; */
+}
+.head .container{
+    height: 12vh;
+    /* background-color: black; */
 }
 
 .head .logo img{
-    width: 350px;
+    width: 300px;
 }
 
 .head .ad img{
-    width: 500px;
+    width: 490px;
 }
 
 header{
@@ -39,9 +45,16 @@ header li a:hover{
 }
 
 @media screen and (max-width:768px){
-    .head .ad{
-        display: none;
+    .head .logo img{
+        width: 200px;
     }
+    
+    .head .ad img{
+        width: 290px;
+    }
+    /* .head .ad{
+        display: none;
+    } */
     header .icon{
         display: none;
     }
