@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-const Card = ({ item: { id, cover, catgeory, title, authorName, time, urlNoticias1, urlNoticias2, urlNoticias3 } }) => {
+const Card = ({ item: { id, cover, category, title, authorName, time, urlNoticias1, urlNoticias2, urlNoticias3 } }) => {
   console.log(cover)
   return (
     <>
@@ -10,7 +10,7 @@ const Card = ({ item: { id, cover, catgeory, title, authorName, time, urlNoticia
           <img src={ cover } alt='' /> 
         </div>
         <div className='text'>
-          <span className='category'>{catgeory}</span>
+          <span className='category'>{category}</span>
           {/*<h1 className='titleBg'>{title}</h1>*/}
           <Link to={`/SinglePage/${id}`}>
             <h1 className='titleBg'>{title}</h1>

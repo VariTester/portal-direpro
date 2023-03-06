@@ -6,6 +6,12 @@
   .hero a {
     color: #fff;
   }
+  /* .hero  .titleBg1{
+      color: rgb(0, 200, 87);
+      height: 10px;
+      font-size: 30px;
+    } */
+ 
   .hero .box {
     position: relative;
     padding: 30px;
@@ -62,7 +68,7 @@
   }
   .hero .text {
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
   }
   .hero .box:nth-child(1) h1 {
     font-size: 28px;
@@ -77,6 +83,49 @@
     background-color: #c78823;
   }
   @media screen and (max-width: 768px) {
+    .hero .container {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(18, 6vh);
+      grid-gap: 10px;
+    }
+    .hero .box:nth-child(1) {
+      grid-column-start: 1;
+      grid-column-end: 9;
+      grid-row-start: 1;
+      grid-row-end: 5;
+    }
+    .hero .box:nth-child(2) {
+      grid-column-start: 1;
+      grid-column-end: 9;
+      grid-row-start: 5;
+      grid-row-end: 10;
+    }
+    .hero .box:nth-child(3) {
+      grid-column-start: 1;
+      grid-column-end: 9;
+      grid-row-start: 10;
+      grid-row-end: 15;
+    }
+    .hero .box:nth-child(4) {
+      grid-column-start: 1;
+      grid-column-end: 9;
+      grid-row-start: 15;
+      grid-row-end: 20;
+    }
+  }
+
+  @media screen and (max-width: 418px) {
+    
+    .hero .box:nth-child(1) h1 {
+      font-size: 15px;
+      font-weight: 400;
+    }
+    .hero .box {
+      position: relative;
+      padding: 10px;
+    }
+   
     .hero .container {
       display: grid;
       grid-template-columns: repeat(8, 1fr);

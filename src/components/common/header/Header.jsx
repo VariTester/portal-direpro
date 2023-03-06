@@ -21,8 +21,8 @@ const Header = () => {
           <ul className={navbar ? 'navbar':'flex'} onClick={()=>setnavbar(false)}>
             <li><Link to='/'>Inicio</Link></li>
             <li><Link to='/noticias'>Noticias</Link></li>
-            <li><Link to='/publicacionnes'>Publicaciones</Link></li>
-            <li><Link to='/productos'>Productos</Link></li>
+            <li><Link to='/publicaciones'>Publicaciones</Link></li>
+            <li><Link to='/mercado_loreto'>Mercado Loreto</Link></li>
             <li><Link to='/eventos'>Eventos</Link></li>
             <li><Link to='/correos_institucionales'>Correos Institucionales</Link></li>
             <li><Link to='/nosotros'>Nosotros</Link></li>
