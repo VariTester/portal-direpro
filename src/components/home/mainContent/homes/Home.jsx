@@ -1,5 +1,6 @@
 import React from 'react'
 import  Popular  from '../popular/Popular'
+import  Ppost  from '../Ppost/Ppost'
 import './style.css'
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <div className='container'>
             <section className='mainContent'>
               <Popular/>
+              <Ppost/>
               </section>
             <section className='sideContent'></section>
             </div>

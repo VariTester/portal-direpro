@@ -341,28 +341,28 @@ export const hero = [
       category: "world",
       title: "We Went Deep Underground For This Amazing Cave Shot",
       date: "19. February 2022",
-      cover: "./components/common/images/ppost/pop1.jpg",
+      cover: "./assets/images/hero/direpro1.jpg",
     },
     {
       id: 2,
       category: "health",
       title: "6 Reasons Why You Shouldn’t Skip Breakfast",
       date: "19. February 2022",
-      cover: "./components/common/images/ppost/pop2.jpg",
+      cover: "./assets/images/ppost/pop2.jpg",
     },
     {
       id: 3,
       category: "food",
       title: "Our Top 5 Restaurants For A Complete Culinary Experience",
       date: "19. February 2022",
-      cover: "./components/common/images/ppost/pop3.jpg",
+      cover: "./assets/images/ppost/pop3.jpg",
     },
     {
       id: 4,
       category: "fashion",
       title: "Hipster Chic Is In Again: Get Some Glasses",
       date: "19. February 2022",
-      cover: "./components/common/images/ppost/pop4.jpg",
+      cover: "./assets/images/ppost/pop4.jpg",
     },
   ]
   export const lifestyle = [

@@ -41,7 +41,7 @@ const Popular = () => {
               <div className='img'>
                 <img src={val.cover} alt='' />
               </div>
-              <div className="category 1">
+              <div className="category category1">
                 <span>{val.category}</span>
               </div>
             </div>
