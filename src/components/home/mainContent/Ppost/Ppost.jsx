@@ -81,12 +81,12 @@ const Ppost = () => {
         return (
          <div className='items'>
           <div className='box shadow'>
-            <div className='imgages'>
+            <div className='images'>
               <div className='img'>
                 <img src={val.cover} alt='' />
               </div>
               {/* No detecta el category1 */}
-              <div className="category">
+              <div className="category category1">
                 <span>{val.category}</span>
               </div>
             </div>
