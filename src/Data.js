@@ -371,28 +371,28 @@ export const hero = [
       category: "world",
       title: "Mustang Teases With A New Promo",
       date: "19. February 2022",
-      cover: "./components/common/images/life/life1.jpg",
+      cover: "./assets/images/life/life1.jpg",
     },
     {
       id: 2,
       category: "sport",
       title: "Surfs Up – Places For Killer Waves",
       date: "19. February 2022",
-      cover: "./components/common/images/life/life2.jpg",
+      cover: "./assets/images/life/life2.jpg",
     },
     {
       id: 3,
       category: "fashion",
       title: "Learn How To Nail Your Favorite Look",
       date: "19. February 2022",
-      cover: "./components/common/images/life/life3.jpg",
+      cover: "./assets/images/life/life3.jpg",
     },
     {
       id: 4,
       category: "world",
       title: "Music Playing On R&B Stations",
       date: "19. February 2022",
-      cover: "./components/common/images/life/life4.jpg",
+      cover: "./assets/images/life/life4.jpg",
     },
   ]
   export const tpost = [
