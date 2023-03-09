@@ -7,7 +7,9 @@ const Footer = () => {
       <footer>
         <div className='container'>
           <div className='box logo'>
-            <img src='../assets/images/tech-logo-footer.png' alt='' />
+            
+            <img src='../assets/images/logotransparentupdate.png' alt='' />
+            
             <p>Busan is an amazing magazine Blogger theme that is easy to customize for your needs</p>
             <i className='fa fa-envelope'></i>
             <span> hello@beautiful.com </span> <br />
@@ -58,9 +60,9 @@ const Footer = () => {
       </footer>
       <div className='legal  '>
         <div className='container flexSB'>
-          <p>© all rights reserved</p>
+          <p>© Todos los derechos reservados</p>
           <p>
-            made with <i className='fa fa-heart'></i> by gorkhcoder
+            creado por University Cat <i className='fa fa-cat'></i>
           </p>
         </div>
       </div>

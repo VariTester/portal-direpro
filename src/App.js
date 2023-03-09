@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import Homepages from '../src/components/home/Homepages'
 import Footer from './components/common/footer/Footer';
+import Noticias from './components/noticias/Noticias';
+import SinglePage from './components/singlePage/SinglePage';
 
 const App = () => {
   return (
@@ -16,7 +18,8 @@ const App = () => {
       <Header/>
         <Routes>
           <Route  path="/" element={<Homepages/>}></Route>
-          {/* <Route path='/singlepage/:id' exact component={SinglePage} /> */}
+          <Route  path="/noticias" element={<Noticias/>}></Route>
+          <Route path='/singlepage/:id' element={<SinglePage/>} />
         </Routes>
         <Footer/>
       </Router>

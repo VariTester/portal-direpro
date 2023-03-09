@@ -55,6 +55,13 @@ footer {
   .legal i {
     color: red;
   }
+footer  .logo img{
+  margin-left: 0px;
+  height: 70px;
+  width: 250px;
+}
+
+
   @media screen and (max-width: 768px) {
     footer .container {
       grid-template-columns: repeat(2, 1fr);
