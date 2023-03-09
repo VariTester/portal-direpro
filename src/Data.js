@@ -399,60 +399,60 @@ export const hero = [
     {
       id: 1,
       title: "US Promises to give Intel aid to locate the soldiers",
-      cover: "./components/common/images/tpost/tpost.webp",
+      cover: "./assets/images/tpost/tpost.webp",
     },
     {
       id: 2,
       title: "Renewable energy dead as industry waits for Policy",
-      cover: "./components/common/images/tpost/tpost2.jpg",
+      cover: "./assets/images/tpost/tpost2.jpg",
     },
     {
       id: 3,
       title: "Mount Etna erupts fashion in nice looking pictures",
-      cover: "./components/common/images/tpost/tpost3.jpg",
+      cover: "./assets/images/tpost/tpost3.jpg",
     },
   ]
   export const gallery = [
     {
-      cover: "./components/common/images/gallery/g1.jpg",
+      cover: "./assets/images/gallery/g1.jpg",
     },
     {
-      cover: "./components/common/images/gallery/g2.jpg",
+      cover: "./assets/images/gallery/g2.jpg",
     },
     {
-      cover: "./components/common/images/gallery/g3.jpg",
+      cover: "./assets/images/gallery/g3.jpg",
     },
     {
-      cover: "./components/common/images/gallery/g4.jpg",
+      cover: "./assets/images/gallery/g4.jpg",
     },
     {
-      cover: "./components/common/images/gallery/g5.jpg",
+      cover: "./assets/images/gallery/g5.jpg",
     },
   ]
   export const discover = [
     {
       title: "games",
-      cover: "./components/common/images/discover/d1.jpg",
+      cover: "./assets/images/discover/d1.jpg",
     },
     {
       title: "sports",
-      cover: "./components/common/images/discover/d2.jpg",
+      cover: "./assets/images/discover/d2.jpg",
     },
     {
       title: "humour",
-      cover: "./components/common/images/discover/d3.jpg",
+      cover: "./assets/images/discover/d3.jpg",
     },
     {
       title: "gadgets",
-      cover: "./components/common/images/discover/d4.jpg",
+      cover: "./assets/images/discover/d4.jpg",
     },
     {
       title: "movies",
-      cover: "./components/common/images/discover/d5.jpg",
+      cover: "./assets/images/discover/d5.jpg",
     },
     {
       title: "nitendo",
-      cover: "./components/common/images/discover/d6.jpg",
+      cover: "./assets/images/discover/d6.jpg",
     },
   ]
   {

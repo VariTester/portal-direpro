@@ -22,7 +22,7 @@ const Header = () => {
             <li><Link to='/'>Inicio</Link></li>
             <li><Link to='/noticias'>Noticias</Link></li>
             <li><Link to='/publicaciones'>Publicaciones</Link></li>
-            <li><Link to='/mercado_loreto'>Mercado Loreto</Link></li>
+            <li><Link to='http://mercadoloreto.great-site.net/home.php?i=2'>Mercado Loreto</Link></li>
             <li><Link to='/eventos'>Eventos</Link></li>
             <li><Link to='/correos_institucionales'>Correos Institucionales</Link></li>
             <li><Link to='/nosotros'>Nosotros</Link></li>

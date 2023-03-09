@@ -2,7 +2,7 @@ main .container {
   display: flex;
   justify-content: space-between;
   /* comentar lo de abajo para que desaparezca lo de abajo de la pagigina */
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .mainContent {
