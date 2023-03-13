@@ -14,7 +14,10 @@ const Discover = () => {
                         <div className="img">
                             <img src={val.cover} alt="" />
                         </div>
+                        <div className='titulo'>
                         <h1 className='title'>{val.title}</h1>
+                        </div>
+                        
                     </div>
                 })}
             </div>

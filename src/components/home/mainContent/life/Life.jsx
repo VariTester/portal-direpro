@@ -23,7 +23,7 @@ const Life = () => {
     }
   return (
     <><section className='popularPost life'>
-    <Heading title='Life Style'/>
+    <Heading title='life'/>
     <div className='content'>
     <Slider {...settings}>
     {lifestyle.map((val) => {

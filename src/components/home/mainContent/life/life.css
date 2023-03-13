@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    /* .discover .content {
+      grid-template-columns: repeat(2, 1fr);
+    } */
+    .life .content  { 
+        width: 700px;
+        /* background-color: rgb(14, 159, 159); */
+      }
+
+      .life .slick-track  { 
+        width: 200px;
+        /* background-color: rgb(14, 159, 31); */
+        margin-left: 15px;
+      }
+      
+  }
+  
