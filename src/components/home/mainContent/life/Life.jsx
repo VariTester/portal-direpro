@@ -16,7 +16,7 @@ const Life = () => {
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
-                rows: 4,
+                rows: 2,
               },
             },
           ],
