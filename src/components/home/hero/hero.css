@@ -77,7 +77,7 @@
     background-color: crimson;
   }
   .hero .box:nth-child(2) .category {
-    background-color: #003f11;
+    background-color: #0b9931;
   }
   .hero .box:nth-child(4) .category {
     background-color: #c78823;
@@ -115,10 +115,10 @@
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 418px) {
     
     .hero .box:nth-child(1) h1 {
-      font-size: 14px;
+      font-size: 15px;
       font-weight: 400;
     }
     .hero .box {
