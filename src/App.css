@@ -22,6 +22,7 @@ i {
 }
 a {
   text-decoration: none;
+  text-transform: capitalize;
 }
 /*-----------global-----------*/
 .container {

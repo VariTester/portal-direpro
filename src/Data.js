@@ -5,7 +5,7 @@ export const hero = [
       category: "Noticias",
       title: "Empresarios psicultores sostuvieiron reunión con funcionarios de DIREPRO",
       authorName: "La Región",
-      authorImg: "../images/author.jpg",
+      authorImg: "./assets/images/author.jpg",
       time: "21 Julio - 2022",
       urlNoticias1: "Ir a la noticia...",
       desc: [
