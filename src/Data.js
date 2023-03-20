@@ -1,29 +1,31 @@
 export const hero = [
     {
       id: 1,
-      cover: "./assets/images/hero/direpro1.jpg",
+      cover: "https://diariolaregion.com/web/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-01-at-5.51.36-PM-1-768x432.jpeg",
       category: "Noticias",
       title: "Empresarios psicultores sostuvieiron reunión con funcionarios de DIREPRO",
       authorName: "La Región",
-      authorImg: "./assets/images/author.jpg",
+      authorImg: "https://diariolaregion.com/web/wp-content/uploads/2023/03/regionlarge-3-1.png",
       time: "21 Julio - 2022",
       urlNoticias1: "Ir a la noticia...",
       desc: [
         {
-          para1: "You audience. Least, the recently his repeat the this avarice for the have and was on would before the concise bedding were hall politely name be regretting have of even five of it the his are there again. Word seven designer far lady problem will have work with you to fully understand your business to achieve.",
+          para1: "Un grupo de empresarios dedicados a la piscicultura en la ciudad de Iquitos, sostuvieron una reunión con funcionarios de la Dirección Regional de la Producción de Loreto (DIREPRO Loreto), para tratar temas relacionados a la formación, competitividad y ordenamiento de las empresas dedicadas a la venta de peces en la Amazonía.",
         },
         {
-          para2: "We work with clients big and small across a range of sectors and we utilize all forms of media to get your name out there in a way that’s right for you. We believe that analysis of your company and your customers is key in responding effectively to your promotional needs and we will work with you.",
+          para2: "La reunión se realizó en el auditorio de la DIREPRO Loreto, ubicado en la calle Ramírez Hurtado en el distrito de Iquitos. Los empresarios, dieron a conocer sus puntos de vista a los funcionarios, que estuvo presidido por Alex Steve del Águila Cardozo, director ejecutivo de pesquería de la DIREPRO.",
         },
         {
-          para3: "We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry.",
+          para3: "Según la empresaria Ferreyra, las normas vigentes se encuentran desactualizadas de las tendencias y tecnologías que existen ahora, por lo que recientemente concedieron permisos para el funcionamiento de nuevos acuarios, que no cumplen con las necesidades y garantías actuales.",
         },
       ],
       details: [
         {
-          title: "Starting a new company is easy",
+          title: '"El cliente debe recibir peces de buena calidad"',
         },
-        { para1: "Our teams are up to date with the latest technologies, media trends and are keen to prove themselves in this industry and that’s what you want from an advertising agency, not someone who is relying on the same way of doing things that worked 10 years, 5 years or even a year ago." },
+        {
+          para1:"señaló la empresaria. Tras la reunión, los empresarios acordaron realizar la formalización de una asociación de empresarios piscicultores dedicados a la exportación, para consolidar de manera general sus pedidos. Los funcionarios de la DIREPRO, acordaron sostener una próxima reunión, en la que brindaran avances en la atención de su pliego de pedidos.",
+        },
         {
           quote: "Scarfs, still not this no with explains it me and option on the any options roasted when I and state can that an don't subjective of has his take on and in from royal everything took raising our have behind success you the mechanic.",
         },
@@ -37,19 +39,19 @@ export const hero = [
     },
     {
       id: 2,
-      cover: "./assets/images/hero/direpro2.jpg",
+      cover: "https://diariolaregion.com/web/wp-content/uploads/2022/07/planta-piloto-alimentarias-2.jpg",
       category: "Noticias",
       title: "Gorel y Direpro realizaron mejoras en la planta piloto de la Facultad de Industrias Alimentarias de la UNAP",
       authorName: "La Región",
-      authorImg: "../images/author.jpg",
+      authorImg: "https://diariolaregion.com/web/wp-content/uploads/2023/03/regionlarge-3-1.png",
       time: "21 Julio - 2022",
       urlNoticias2: "Ir a la noticia...",
       desc: [
         {
-          para1: "You audience. Least, the recently his repeat the this avarice for the have and was on would before the concise bedding were hall politely name be regretting have of even five of it the his are there again. Word seven designer far lady problem will have work with you to fully understand your business to achieve.",
+          para1: "La mañana del martes 19 de julio de 2022, se realizó la ceremonia de entrega de los ambientes mejorados de la Planta Piloto de la Facultad de Industrias Alimentarias (FIA) de la Universidad Nacional de la Amazonía Peruana (UNAP), todo ello en el marco del convenio específico con la Dirección Regional de la Producción Loreto (DIREPRO)",
         },
         {
-          para2: "We work with clients big and small across a range of sectors and we utilize all forms of media to get your name out there in a way that’s right for you. We believe that analysis of your company and your customers is key in responding effectively to your promotional needs and we will work with you.",
+          para2: "En la actividad también estuvieron presentes, el señor Oscar Lozano Torres, representación del gerente general del Gobierno Regional de Loreto, economista Mario López Tejerina; y el ingeniero Alexis Alván Berenz, director ejecutivo de las MYPE e Industria de la DIREPRO. Los trabajos que se hicieron en beneficio de la Planta Piloto también contemplaron: el mantenimiento respectivo de las cocinas, máquinas y equipos; refacción del sistema eléctrico de ambos talleres; pintado y acondicionamiento total (cambio de puertas); instalación de señaléticas de seguridad y bioseguridad e instalación de lavadero en acero inoxidable.",
         },
         {
           para3: "We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry.",
