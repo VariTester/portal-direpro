@@ -401,7 +401,7 @@ export const hero = [
     {
       id: 1,
       title: "US Promises to give Intel aid to locate the soldiers",
-      cover: "./assets/images/tpost/tpost.webp",
+      cover: "http://localhost:3000/assets/images/tpost/tpost.webp",
     },
     {
       id: 2,

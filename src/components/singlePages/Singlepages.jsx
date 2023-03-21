@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { hero } from "../../Data"
 import './singlepage.css'
+import Side from "../home/sideContent/side/Side"
 import SinglePageSlider from './SinglePageSlider/SinglePageSlider'
 // import autor1 from "../common/images/autores/author.jpg";
 // import noticia1 from "../common/images/hero/direpro1.jpg";
@@ -23,55 +24,82 @@ const Singlepages = () =>  {
     {item ? (
         <main>
             <SinglePageSlider/>
-            <div className="container">
-                <section className='mainContent details'>
-                    <h1 className='title'>{item.title}</h1>
-                    <div className="author">
-                      <span>por</span>
-                      <img src={item.authorImg} alt='' />
-                      <p>{item.authorName} el</p>
-                      <label htmlFor="">{item.time}</label>
-                    </div>
-        <div className='social'>
-        <div className='socBox'>
-          <i className='fab fa-facebook-f'></i>
-        </div>
-        <div className='socBox'>
-          <i className='fab fa-pinterest'></i>
-        </div>
-        <div className='socBox'>
-          <i className='fab fa-twitter'></i>
-        </div>
-        <div className='socBox'>
-          <i className='fab fa-instagram'></i>
-        </div>
-        <div className='socBox'>
-          <i className='fab fa-youtube'></i>
-        </div>
-      </div>
-        <div className="desctop">
-          {item.desc.map((val)=>{
-            return(
-              <>
-              <p>{val.para1}</p>
-              <p>{val.para2}</p>
-              </>
-            )
-          })}
-        </div>
-        <img src={item.cover} alt="" />
-        <div className="descbot">
-        {item.details.map((data)=>{
-            return(
-              <>
-              <h3>{data.title}</h3>
-              <p>{data.para1}</p>
-              </>
-            )
-          })}
-        </div>
-      </section>
-        </div>
+            <div className='container'>
+            <section className='mainContent details'>
+              <h1 className='title'>{item.title}</h1>
+
+              <div className='author'>
+                <span>by</span>
+                <img src={item.authorImg} alt='' />
+                <p> {item.authorName} on</p>
+                <label>{item.time}</label>
+              </div>
+
+              <div className='social'>
+                <div className='socBox'>
+                  <i className='fab fa-facebook-f'></i>
+                  <span>SHARE</span>
+                </div>
+                <div className='socBox'>
+                  <i className='fab fa-twitter'></i>
+                  <span>TWITTER</span>
+                </div>
+                <div className='socBox'>
+                  <i className='fab fa-pinterest'></i>
+                </div>
+                <div className='socBox'>
+                  <i className='fa fa-envelope'></i>
+                </div>
+              </div>
+
+              <div className='desctop'>
+                {item.desc.map((val) => {
+                  return (
+                    <>
+                      <p>{val.para1}</p>
+                      <p>{val.para2}</p>
+                    </>
+                  )
+                })}
+              </div>
+              <img src={item.cover} alt='' />
+              {item.desc.map((val) => (
+                <p>{val.para3}</p>
+              ))}
+
+              <div className='descbot'>
+                {item.details.map((data) => {
+                  return (
+                    <>
+                      <h1>{data.title}</h1>
+                      <p>{data.para1}</p>
+                    </>
+                  )
+                })}
+              </div>
+
+              <div className='quote'>
+                <i className='fa fa-quote-left'></i>
+                {item.details.map((data) => (
+                  <p>{data.quote}</p>
+                ))}
+              </div>
+
+              <div className='desctop'>
+                {item.details.map((data) => {
+                  return (
+                    <>
+                      <p>{data.para2}</p>
+                      <p>{data.para3}</p>
+                    </>
+                  )
+                })}
+              </div>
+            </section>
+            <section className='sideContent'>
+              <Side/>
+            </section>
+          </div>
     </main>
 
   ) : (
