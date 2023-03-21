@@ -7,7 +7,7 @@ const Discover = () => {
   return (
     <><section className='discover'>
         <div className="container">
-            <Heading title="Discover"/>
+            <Heading title="Mercado Loreto"/>
             <div className="content">
                 {discover.map((val) => {
                     return <div className="box">

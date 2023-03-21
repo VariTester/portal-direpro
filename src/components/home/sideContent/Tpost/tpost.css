@@ -1,6 +1,9 @@
 .tpost .box {
     margin-bottom: 20px;
   }
+  .tpost h6{
+    font-size: 13px;
+  }
   .tpost .img {
     width: 100px;
     height: 80px;

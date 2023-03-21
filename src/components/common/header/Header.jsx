@@ -20,8 +20,8 @@ const Header = () => {
           {/* para hacer horizontal la barra de categorias */}
           <ul className={navbar ? 'navbar':'flex'} onClick={()=>setnavbar(false)}>
             <li><Link to='/'>Inicio</Link></li>
-            <li><Link to='/noticias'>Noticias</Link></li>
             <li><Link to='/publicaciones'>Publicaciones</Link></li>
+            <li><Link to='/noticias'>Noticias</Link></li>
             <li><Link to='http://mercadoloreto.great-site.net/home.php?i=2'>Mercado Loreto</Link></li>
             <li><Link to='/eventos'>Eventos</Link></li>
             <li><Link to='/correos_institucionales'>Correos Institucionales</Link></li>

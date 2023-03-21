@@ -12,8 +12,8 @@ const Home = () => {
         <main>
             <div className='container'>
             <section className='mainContent'>
-              <Popular/>
               <Ppost/>
+              <Popular/>
               <Life/>
               <Music/>
               </section>

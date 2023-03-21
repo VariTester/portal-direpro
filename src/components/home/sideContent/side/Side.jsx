@@ -18,20 +18,20 @@ const Side = () => {
     slidesToScroll: 1,
   }
 
-  const category = ["world","travel","sport","fun","health","fashion","business","technology"]
+  const category = ["Institución: Dirección Regional de la Producción","RUC: 20493196902","Razón Social: Gobierno Regional de Loreto","Dirección: Calle Ramirez Hurtado N° 645","Director: Blgo. Alfredo Arturo Bon Blas"]
 
   return (
     <>
-    <Heading title="Stay Connected"/>
+    <Heading title="Redes Sociales"/>
     <SocialMedia />
 
-    <Heading title="Subscribe"/>
+    <Heading title="Subscríbete"/>
 
     <section className='subscribe'>
-      <h1 className='title'>Subscribe to our New Stories</h1>
+      <h1 className='title'>Mantente informado en lo último de nuestras Noticias</h1>
       <form action=''>
-        <input type='text' placeholder='Email Adress...'/>
-        <button><i className='fa fa-paper-plane'></i>SUBMIT
+        <input type='text' placeholder='Correo Electrónico...'/>
+        <button><i className='fa fa-paper-plane'></i> SUBSCRIBIRME
         </button>
       </form>
     </section>
@@ -43,7 +43,7 @@ const Side = () => {
     <Tpost/>
 
     <section className='categorys'>
-        <Heading title='Categorys' />
+        <Heading title='Info' />
         {/*<div className='items'>{allCat}</div>*/}
         {category.map((val) => {
           return (
@@ -55,7 +55,7 @@ const Side = () => {
       </section>
 
       <section className='gallery'>
-        <Heading title='Gallery' />
+        <Heading title='Fotos' />
         <Slider {...settings}>
           {gallery.map((val) => {
             return (

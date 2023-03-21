@@ -1,8 +1,9 @@
 import React from 'react'
-import { popular } from '../../../../Data'
+import { general, popular } from '../../../../Data'
 import Heading from '../../../common/Heading/Heading'
 import './music.css'
 import Slider from "react-slick";
+import { Link } from "react-router-dom"
 
 const Music = () => {
     const settings = {
@@ -18,11 +19,11 @@ const Music = () => {
   return (
     <>
     <section className='music'>
-        <Heading title='Music News' />
+        <Heading title='General' />
         <div className='content'>
           <Slider {...settings}>
-            {popular
-              .filter((val) => val.category === "fun")
+            {general
+              .filter((val) => val.category)
               .map((val) => {
                 return (
                   <div className='items'>
@@ -43,8 +44,10 @@ const Music = () => {
                         </div>
                         <p className='desc'>{val.desc.slice(0, 250)}...</p>
                         <div className='comment'>
-                          <i class='fas fa-share'></i>
-                          <label>Share / </label>
+                          <i class='fas fa-link'></i>
+                          <Link to={`https://www.gob.pe/institucion/produce/noticias/312623-produce-que-es-una-veda-y-para-que-sirve`}>
+                          <label>Link / </label>
+                          </Link>
                           <i class='fas fa-comments'></i>
                           <label>{val.comments}</label>
                         </div>

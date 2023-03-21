@@ -6,7 +6,7 @@ const SocialMedia = () => {
      <section className='social'>
         <div className='socBox'>
           <i className='fab fa-facebook-f'></i>
-          <span>12,740 Likes</span>
+          <span>4,761 Likes</span>
         </div>
         <div className='socBox'>
           <i className='fab fa-pinterest'></i>
