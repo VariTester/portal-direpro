@@ -3,7 +3,7 @@ import  {hero} from '../../../Data'
 import Card from './Card';
 import  './hero.css';
 const Hero = () => {
-    const [items, setitems] = useState(hero);
+    const [items] = useState(hero);
     console.log(items)
   return (
     <>

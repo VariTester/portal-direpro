@@ -52,7 +52,11 @@ const Popular = () => {
                 <label htmlFor=''>{val.date}</label>
               </div>
               <div className='comment'>
-                <i className='fas fa-comment'></i>
+              <i className='far fa-clock'></i>
+              <label>{val.time}</label>
+              </div>
+              <div className='comment'>
+                <i className='fas fa-location-arrow'></i>
                 <label>{val.comments}</label>
               </div>
             </div>

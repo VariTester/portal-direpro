@@ -1,5 +1,5 @@
 import React from 'react'
-import { general, popular } from '../../../../Data'
+import { articulos } from '../../../../Data'
 import Heading from '../../../common/Heading/Heading'
 import './music.css'
 import Slider from "react-slick";
@@ -19,10 +19,10 @@ const Music = () => {
   return (
     <>
     <section className='music'>
-        <Heading title='General' />
+        <Heading title='Artículos' />
         <div className='content'>
           <Slider {...settings}>
-            {general
+            {articulos
               .filter((val) => val.category)
               .map((val) => {
                 return (
@@ -45,9 +45,13 @@ const Music = () => {
                         <p className='desc'>{val.desc.slice(0, 250)}...</p>
                         <div className='comment'>
                           <i class='fas fa-link'></i>
-                          <Link to={`https://www.gob.pe/institucion/produce/noticias/312623-produce-que-es-una-veda-y-para-que-sirve`}>
+                          
+
+                          <Link to={"val.link"}>
                           <label>Link / </label>
                           </Link>
+
+
                           <i class='fas fa-comments'></i>
                           <label>{val.comments}</label>
                         </div>

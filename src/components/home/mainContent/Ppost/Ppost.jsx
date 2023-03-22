@@ -74,7 +74,7 @@ const Ppost = () => {
   return (
     <>
     <section className='popularPost'>
-      <Heading title='Noticias'/>
+      <Heading title='Publicaciones'/>
       <div className='content'>
       <Slider {...settings}>
       {ppost.map((val) => {
@@ -91,7 +91,7 @@ const Ppost = () => {
               </div>
             </div>
             <div className='text'>
-              <h1 className='title'>{val.title.slice(  0,40)}...</h1>
+              <h1 className='title'>{val.title.slice(  0,90)}...</h1>
               <div className="date">
                 <i className='fas fa-calendar-days'></i>
                 <label>{val.date}</label>

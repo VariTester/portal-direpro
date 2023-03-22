@@ -7,26 +7,35 @@
     margin: 15px 15px 15px 0;
     /*box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;*/
   }
-  .popular .images {
+  /* .popular .{
+    margin-left: 50px;
+  } */
+
+  .popular .images{
     position: relative;
-    height: 150px;
+    height: 200px;
+    
   }
   .popular img {
     width: 100%;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
   }
   .popular .text h1 {
-    padding: 20px 0 0 20px;
+    padding: 10px 0 0 20px;
     margin: 0;
   }
   .popular .date {
     margin-top: 15px;
     padding: 0 0 0 20px;
   }
+
+  .popular label{
+    font-size: 12px;
+  }
   
   .popular .comment {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 5px 0 0 20px;
+    padding: 0 0 0 20px;
     margin-top: 5px;
   }

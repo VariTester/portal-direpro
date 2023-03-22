@@ -3,6 +3,8 @@ import { tpost } from '../../../../Data'
 import Heading from '../../../common/Heading/Heading'
 import './tpost.css'
 
+import { Link } from "react-router-dom"
+
 const Tpost = () => {
   return (
     <>
@@ -15,8 +17,8 @@ const Tpost = () => {
                 <img src={val.cover} alt='' />
               </div>
               <div className='text'>
-                <h1 className='title'>{val.title.slice(0, 35)}...</h1>
-                <span>a year ago</span>
+                <h1 className='title'>{val.title}</h1>
+                <span><Link to={"val.link"}>Ingresar</Link></span>
               </div>
             </div>
           )

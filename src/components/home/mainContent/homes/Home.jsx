@@ -1,6 +1,6 @@
 import React from 'react'
 import Side from '../../sideContent/side/Side'
-import Life from '../life/Life'
+// import Life from '../life/Life'
 import Music from '../music/Music'
 import  Popular  from '../popular/Popular'
 import  Ppost  from '../Ppost/Ppost'
@@ -14,7 +14,7 @@ const Home = () => {
             <section className='mainContent'>
               <Ppost/>
               <Popular/>
-              <Life/>
+              {/* <Life/> */}
               <Music/>
               </section>
             <section className='sideContent'>

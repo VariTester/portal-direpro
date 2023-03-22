@@ -25,7 +25,7 @@ const Side = () => {
     <Heading title="Redes Sociales"/>
     <SocialMedia />
 
-    <Heading title="Subscríbete"/>
+    <Heading title="Suscríbete"/>
 
     <section className='subscribe'>
       <h1 className='title'>Mantente informado en lo último de nuestras Noticias</h1>
